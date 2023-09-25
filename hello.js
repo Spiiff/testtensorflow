@@ -1,3 +1,5 @@
+import * as cocoSsd from "@tensorflow-models/pose-detection/dist/movenet/detector";
+
 const status = document.getElementById('status');
 if (status) {
     status.innerText = 'Loaded TensorFlow.js - version: ' + tf.version.tfjs;
